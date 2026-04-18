@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lignes Tisseo</title>
+    <link rel="icon" type="image/svg+xml" href="images/Logo_Tisseo_Voyageurs.png">
+    <link rel="stylesheet" href="fichierCss/style.css">
+    <script src="fichierJs/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lignes de transport Tisseo</h1>
+        <p class="description">
+            Découvrez les lignes et arrêts du réseau Tisseo à Toulouse.
+            Cliquez sur le bouton ci-dessous pour afficher la liste des lignes de bus, métro et tramway, puis sélectionnez une ligne pour voir ses arrêts.
+        </p>
+        <button class="custom-button">Afficher les lignes</button>
+
+        <!-- Loader pour le chargement -->
+        <div id="loader" class="loader">
+            <div class="spinner"></div>
+            <p>Chargement en cours...</p>
+        </div>
+
+        <ul id="lineListe"></ul>
+    </div>
+
+    <footer>
+        <p>Données fournies par l'API <a rel="noopener noreferrer" href="https://www.tisseo.fr/" target="_blank">Tisseo</a>.</p>
+        <p>Projet réalisé par Miryam GAKOSSO — Lors de ma formation en L2 MIASHS parcours Informatique à UT2J 2026</p>
+    </footer>
+
+</body>
+
+</html>
