@@ -38,8 +38,8 @@ Développée en HTML, CSS et JavaScript, elle utilise l’API officielle de Tiss
 2. **Ouvrir index.html dans ton navigateur** :
 Double-clique sur le fichier ou utilise un serveur local (ex: Live Server dans VS Code).
 
-3. **Structure du projet** :
-   tisseo-transport-app/
+3. **Structure du projet** :  
+   tisseo-transport-app/  
     │── index.html          # Page principale  
     │── fichierCss/  
     │   └── style.css       # Styles CSS  
@@ -53,8 +53,8 @@ Ce projet est sous licence MIT. Tu es libre de l’utiliser, modifier et partage
 
 5. **Remerciements** :
 
-Tisseo pour l’API publique.
-
-VSCode et Live Server pour le développement.
-
+   Tisseo pour l’API publique.
+   
+   VSCode et Live Server pour le développement.
+   
 
